@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phone Bot</title>
+    <title>Forever Estate Bot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -87,6 +87,10 @@
                 return 'Hi there! How can I help you today?';
             } else if (lowerCaseMessage.includes('help')) {
                 return 'Sure, what do you need help with?';
+            } else if (lowerCaseMessage.includes('i want to rent region')) {
+                return 'you are in the right place' 
+            } else if (lowerCaseMessage.includes('how much cost one region')) {
+                return 'we offer good prices depend on how many month your are going to pay'
             } else {
                 return 'I\'m sorry, I didn\'t understand that. Can you please rephrase?';
             }
